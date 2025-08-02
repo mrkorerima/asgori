@@ -293,3 +293,12 @@ body.theme-clean {
 .scroll-indicator a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.logo {
+  font-family: 'Abril Fatface', serif;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}

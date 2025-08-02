@@ -16,7 +16,7 @@ const translations = {
     headline: "We Grow Your Business with TikTok.",
     subline: "Fast, affordable, local-friendly content management.",
     about: {
-      heading: "Why Robera?",
+      heading: "Why Asgori?",
       text: "We help small businesses grow using powerful TikTok strategies tailored for the Ethiopian market. Whether you're in Shashemene or Addis Ababa, we deliver content that connects.",
     },
   },
@@ -24,7 +24,7 @@ const translations = {
     headline: "በቲክቶክ ንግድዎን እናደግፋለን።",
     subline: "ፈጣን፣ ቀላል፣ የአካባቢ ማስተዳደር።",
     about: {
-      heading: "ለምን ሮቤራ?",
+      heading: "ለምን አስጎሪ?",
       text: "በኢትዮጵያ የታመነ የቲክቶክ ስታቴጂ በመጠቀም ቢዝነሶችን እናደግፋለን። በሻሸመኔ ወይም በአዲስ አበባ እንዳሉ እንዲገናኙ ይረዳዎታል።",
     },
   },
@@ -32,7 +32,7 @@ const translations = {
     headline: "TikTokn hojii kee guddisna.",
     subline: "Itti fufiinsa, gatii salphaa, fi deeggarsa naannoo.",
     about: {
-      heading: "Maaliif Robera?",
+      heading: "Maaliif Asgorrii?",
       text: "TikTokn tarsiimoo cimaa waliin hojjettoota xixiqqaa guddisuuf hojjenna. Shashamane keessa jiraattanii yookin Finfinne keessa jiraattanii, dhimmamtoota kee waliin wal qunnamsiisa.",
     },
   },
@@ -123,5 +123,6 @@ simulateLocationDetection();
       document.getElementById("about-text").textContent = translations[lang].about.text;
     }
   });
+
 
 });
